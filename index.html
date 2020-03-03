@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project tr</title>
+    <link rel="stylesheet" href="style.css"/>
+
+    <script src="https://kit.fontawesome.com/34f02e5158.js" crossorigin="anonymous"></script>
+    <script src="includeHTML.js"></script>
+    <script src="js/search_left.js"></script>
+    <script src="js/search_right.js"></script>
+    <script src="js/perk.js"></script>
+    <script>
+        window.onload = function () {
+            includeHTML();
+        }
+    </script>
+</head>
+
+<body>
+
+<!-- 헤더 -->
+<header include-html="include/header.html" class="header"></header>
+<div class="box">
+    <div class="box_left">
+
+    </div>
+    <div class="box_right">
+
+    </div>
+</div>
+<div class="box_center">
+    <div class="box_left">
+        <div include-html="include/search_left.html" class="search_container"></div>
+        <div include-html="include/counters_left.html" class="counters_container" id="result1"></div>
+        <div include-html="include/perk.html" class="perk_container"></div>
+    </div>
+    <div class="box_right">
+        <div include-html="include/search_right.html" class="search_container"></div>
+        <div include-html="include/counters_right.html" class="counters_container" id="result2"></div>
+        <div include-html="include/perk.html" class="perk_container"></div>
+    </div>
+</div>
+<!--<footer include-html="include/footer.html" class="footer"> footer</footer>-->
+</body>
+</html>

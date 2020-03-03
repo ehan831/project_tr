@@ -1,0 +1,233 @@
+html {
+    height: 100%;
+    background-image: url("resources/bg/Ahri_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*filter: grayscale(100%);*/
+}
+.header {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #051b2b;
+    color: white;
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    background-color: #cccccc;
+}
+
+.box_left {
+    height: auto;
+    width: 50%;
+    float: left;
+    /*background-color: #b5dcff;*/
+}
+
+.box_right {
+    height: auto;
+    width: 50%;
+    float: right;
+    /*background-color: #fcf8c0;*/
+}
+
+.box_center {
+    width: 1080px;
+    height: auto;
+    background-color: #fcf8c0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search_container {
+
+}
+
+.search_bar {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/*.search_result {*/
+/*    display: inline-block;*/
+/*    width: 300px;*/
+/*    text-align: center;*/
+/*    height: 90px;*/
+/*    overflow: hidden;*/
+/*}*/
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+
+.searchTerm {
+    margin: 5px;
+    width: 300px;
+    height: 30px;
+    cursor: auto;
+}
+
+.searchButton {
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+
+.auto_complete_items {
+    width: 300px;
+    background-color: #3ab1cc;
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: 10px;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.auto_complete_items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+/*when hovering an item:*/
+.auto_complete_items div:hover {
+    background-color: #e9e9e9;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.auto_complete_active {
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
+/* counters */
+
+.container_ct {
+    vertical-align: top;
+    background-color: white;
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+}
+
+.title_ct {
+    margin: 10px;
+}
+
+.photo_ct {
+    margin: 10px;
+    width: 30%; height: 30%;
+    object-fit: cover;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.info_ct {
+    text-align: left;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.small_font {
+    font-weight: 200;
+    font-size: small;
+
+}
+
+.info_champion {
+    margin: 5px;
+}
+
+.champions {
+    display: list-item;
+}
+
+
+/* perk 특 */
+
+.perk_container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.perk_ct {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 490px;
+    height: 100px;
+    padding-top: 5px;
+}
+
+/* perk js*/
+.tab {
+    padding-left: 20px;
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    text-align: center;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tab_content {
+    background-color: white;
+    display: none;
+    padding: 6px 12px;
+    /*border: 1px solid #ccc;*/
+    border-top: none;
+}
+
+.perk_list {
+}
+
+.img_50 {
+    width: 50px;
+}
+
+.img_30 {
+    width: 30px;
+}
+
+.img_25 {
+    width: 25px;
+}
+
